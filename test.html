@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Show as tree test</title>
+<!--      <link rel="stylesheet" type="text/css" href="style-original.css" />-->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="excanvas.js"></script>
+        <script type="text/javascript" src="jit.js"></script>
+        <script type="text/javascript" src="jquery.showastree.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function (){
+//            $('#tree').showastree();
+        });
+        </script>
+
+    </head>
+
+    <body>
+        <div id="tree">
+            <div id="root">Root content</div>
+            <ul>
+                <li>
+                    <div id="child1">first child</div>
+                    <ul>
+                        <li>
+                            <div id="subchild1">subchild element 1</div>
+                        </li>
+                        <li>
+                            <div id="subchild2">subchild element 2</div>
+                        </li>
+                    </ul>
+
+                </li>
+                <li>
+                    <div id="child2" class="selected">child element 2</div>
+                </li>
+                <li>
+                    <div id="child3">child element 3</div>
+                </li>
+                <li>
+                    <div id="child4">child element 4</div>
+                </li>
+            </ul>
+        </div>
+    </body>
+</html>
