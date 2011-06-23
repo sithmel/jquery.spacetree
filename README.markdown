@@ -30,15 +30,18 @@ It returns the selected node
 jitsettings
 -----------
 configuration of spacetree
-see the official documentation
-http://thejit.org/static/v20/Docs/files/Visualizations/Spacetree-js.html
-http://thejit.org/static/v20/Docs/files/Options/Options-Controller-js.html#Options.Controller
+see the official documentation:
+
+- http://thejit.org/static/v20/Docs/files/Visualizations/Spacetree-js.html
+- http://thejit.org/static/v20/Docs/files/Options/Options-Controller-js.html#Options.Controller
 
 
 Default html markup
 ===================
 
 This is the default html configuration:
+
+<pre>
 
 <div id="tree">
     <div id="root">root element content</div>
@@ -56,3 +59,5 @@ This is the default html configuration:
         </li>
     </ul>
 </div>
+
+</pre>
