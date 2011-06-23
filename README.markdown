@@ -41,7 +41,7 @@ Default html markup
 
 This is the default html configuration:
 
-<pre>
+<div>
 
 <div id="tree">
     <div id="root">root element content</div>
@@ -60,4 +60,4 @@ This is the default html configuration:
     </ul>
 </div>
 
-</pre>
+</div>
