@@ -41,23 +41,22 @@ Default html markup
 
 This is the default html configuration:
 
-<div>
 
-<div id="tree">
-    <div id="root">root element content</div>
-    <ul>
-        <li>
-            <div id="child1">child element content</div>
-            <ul>
-                <li>
-                    ...
-                </li>
-            </ul>
-        </li>
-        <li>
-            <div id="child2" class="selected">child element content</div>
-        </li>
-    </ul>
-</div>
+    <div id="tree">
+        <div id="root">root element content</div>
+        <ul>
+            <li>
+                <div id="child1">child element content</div>
+                <ul>
+                    <li>
+                        ...
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <div id="child2" class="selected">child element content</div>
+            </li>
+        </ul>
+    </div>
 
-</div>
+
