@@ -1,0 +1,22 @@
+#spacetree{
+    height:400px;
+}
+
+#spacetree .node{
+    background-color:DarkSeaGreen;
+    text-align:center;
+    padding:2px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    box-shadow : 0 1px 3px rgba(0, 0, 0, .8);
+    -moz-box-shadow : 0 1px 3px rgba(0, 0, 0, .8);
+    -webkit-box-shadow : 0 1px 3px rgba(0, 0, 0, .8);
+}
+
+#spacetree .node.selectednode{
+    background-color:ForestGreen;
+    box-shadow : 0 3px 3px rgba(0, 0, 0, .8);
+    -moz-box-shadow : 0 3px 3px rgba(0, 0, 0, .8);
+    -webkit-box-shadow : 0 3px 3px rgba(0, 0, 0, .8);
+}
